@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body style="background:#8ff0f9">
+    <div class="container">
+
+        <!-- crystal collector jumbotron -->
+        <div class="jumbotron jumbotron-fluid" style="background: #20d2ff; ">
+            <div class="container">
+                <h1 class="display-4"
+                    style="text-align: center; font-family: 'Titan One', cursive; color: #ffe349; font-size: 66px;">
+                    Crystal Collector!</h1>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-5 col-sm-12">
+
+                <div id="instruct">
+                    <p>
+                        You will be given a random number at the start of the game.
+
+                        There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                        to
+                        your
+                        total score.
+
+                        You win the game by matching your total score to random number, you lose the game if your total
+                        score
+                        goes above the random number.
+                    </p>
+                    <p>
+                        The value of each crystal is hidden until you click on it.
+
+                        Each time the game starts the values of the crystals will randomly change.
+                    </p>
+
+                    <p id="luck">
+                        Good luck!
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-7 col-sm-12">
+
+                <div class="row">
+
+                    <div id="target-score" class="col-4">
+                        Target score
+                        <br>
+                        <p id="target-score-count">0</p>
+
+                    </div>
+
+                    <div id="scores" class="col-4">
+                        Wins
+                        <br>
+                        <p id="win-count">0</p>
+
+                    </div>
+
+                    <div id="scores" class="col-4">
+                        Losses
+                        <br>
+                        <p id="lose-count">0</p>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+                    <div id="total_style" class="col-12">
+
+                        <h2 id='total-score'>Your score is:</h2>
+
+                    </div>
+
+                </div>
+
+                <div id="crystals" class="row">
+
+                    <div id="crystal1" class="col-3">
+
+                        <img class="img-fluid" src="assets/images/crys1.png" alt=''>
+
+                    </div>
+                    <div id="crystal2" class="col-3">
+
+                        <img class="img-fluid" src="assets/images/crys2.png" alt=''>
+
+                    </div>
+                    <div id="crystal3" class="col-3">
+
+                        <img class="img-fluid" src="assets/images/crys3.png" alt=''>
+
+                    </div>
+                    <div id="crystal4" class="col-3">
+
+                        <img class="img-fluid" src="assets/images/crys4.png" alt=''>
+
+                    </div>
+
+
+                </div>
+
+                <script src='assets/javascript/logic.js'></script>
+</body>
+
+
+</html>

@@ -1,0 +1,71 @@
+#instruct {
+    background: #974fdc;
+    padding: 26px;
+    padding-bottom: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 24px;
+   
+}
+
+#luck {
+    font-family: 'Titan One', cursive;
+    
+    font-size: 30px;
+    text-align: center;
+    color: #20d2ff;
+
+}
+
+
+#scores {
+    background: olive;
+    padding-top: 50px;
+    padding-left: 26px;
+    padding-right: 26px; 
+    padding-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+   
+}
+
+#target-score {
+    background:violet;
+    padding-top: 50px;
+    padding-left: 26px;
+    padding-right: 26px; 
+    padding-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+   
+}
+
+#total_style {
+    background: tomato;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+#crystals {
+    background: tomato;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
