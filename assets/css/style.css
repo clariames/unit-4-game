@@ -1,7 +1,9 @@
 #instruct {
     background: #974fdc;
-    padding: 26px;
-    padding-bottom: 4px;
+    padding-top: 30px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;
     color: white;
@@ -21,11 +23,11 @@
 
 
 #scores {
-    background: olive;
-    padding-top: 50px;
+    background: #974fdc;
+    padding-top: 30px;
     padding-left: 26px;
     padding-right: 26px; 
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     color: white;
@@ -36,10 +38,10 @@
 
 #target-score {
     background:violet;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 26px;
     padding-right: 26px; 
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     color: white;
@@ -49,23 +51,25 @@
 }
 
 #total_style {
-    background: tomato;
+    background:#20d2ff;
     padding: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Titan One', cursive;
     text-align: justify;
     color: white;
     font-size: 20px;
     margin-top: 20px;
-   
+    text-align: center;
 }
 
 #crystals {
-    background: tomato;
+    background:violet;
     padding: 20px;
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;
     color: white;
     font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 50px;
+    
    
 }
